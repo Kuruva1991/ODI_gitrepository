@@ -5,3 +5,4 @@ select ename,sal,rank() over (partitioned by deptno order by sal desc) r from em
 select max(sal) from emp;
 select * from emp where deptno =20;
 select * from emp where deptno =30;
+select * from emp where deptno =40;
