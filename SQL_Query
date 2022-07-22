@@ -4,3 +4,5 @@ delete table emp where rowid no in(select min(rowid) from emp);
 select ename,sal,rank() over (partitioned by deptno order by sal desc) r from emp where r=4;
 select max(sal) from emp;
 select * from emp where deptno =20;
+select * from emp where deptno =30;
+select * from emp where deptno =40;
