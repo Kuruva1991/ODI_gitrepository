@@ -8,3 +8,4 @@ select * from emp where deptno =30;
 select * from emp where deptno =40;
 
 select * FROM EMP WHERE DEPTNO=50;
+select * from all_tables;
