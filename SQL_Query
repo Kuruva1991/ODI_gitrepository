@@ -6,3 +6,5 @@ select max(sal) from emp;
 select * from emp where deptno =20;
 select * from emp where deptno =30;
 select * from emp where deptno =40;
+
+select * FROM EMP WHERE DEPTNO=50;
